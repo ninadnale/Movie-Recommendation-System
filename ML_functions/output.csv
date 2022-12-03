@@ -1,0 +1,16 @@
+imdbId,title,similarity_factor,genres
+110912,Pulp Fiction (1994),10.325883585830363,Comedy|Crime|Drama|Thriller
+102926,"Silence of the Lambs, The (1991)",8.012074073504373,Crime|Horror|Thriller
+114814,"Usual Suspects, The (1995)",7.9180195391015396,Crime|Mystery|Thriller
+111161,"Shawshank Redemption, The (1994)",7.486192369941011,Crime|Drama
+117951,Trainspotting (1996),7.259641731221391,Comedy|Crime|Drama
+137523,Fight Club (1999),7.110275887139801,Action|Crime|Drama|Thriller
+76759,Star Wars: Episode IV - A New Hope (1977),6.336974420648803,Action|Adventure|Sci-Fi
+33467,Citizen Kane (1941),6.237951646029863,Drama|Mystery
+407887,"Departed, The (2006)",6.196537033444659,Crime|Drama|Thriller
+266697,Kill Bill: Vol. 1 (2003),6.189408493743761,Action|Crime|Thriller
+116282,Fargo (1996),5.837425670738814,Comedy|Crime|Drama|Thriller
+468569,"Dark Knight, The (2008)",5.7477171445036355,Action|Crime|Drama|IMAX
+1375666,Inception (2010),5.244479742952935,Action|Crime|Drama|Mystery|Sci-Fi|Thriller|IMAX
+34583,Casablanca (1942),5.224732498019014,Drama|Romance
+82971,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),5.150906646236248,Action|Adventure

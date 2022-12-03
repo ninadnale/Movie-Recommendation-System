@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<html>
+	<head>
+		<title>Recommendation System</title>
+		<style>
+		</style>
+	</head>
+	<body background="/media/main_bg.jpg" style="background-size:cover">
+		<br><br>
+		<table align ="center">
+		
+		<form action="/external/" method="post">
+			 {% csrf_token %}
+			 <tr><td>Enter User ID : </td><td><input type="text" name="param" required></td>
+			 <td></td><td><input type="submit" value="Get Recommendations"></td>
+			 <br><br>
+			 
+			 {{data_external}}<br><br>
+			 
+			 {% block content %}
+			 <table align="center"><tr><td>{{data1 | safe}}</tr></td></table>
+			 {% endblock %}
+			 </div>
+		</form>
+		
+		<form action="/kmeans/" method="post">
+			 <br><br>
+			 {% csrf_token %}
+			 <table align="center">
+			 <br><br>
+			 <tr>
+			 <td>     </td><td><input type="submit" value="Generate K-means Analysis"></td>
+			 </table>
+		</form>
+		
+		</table>
+	</body>
+</html>
+{% endblock %}
