@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block page_content %}
+<html>
+	<head>
+		<title>Recommendation System</title>
+	</head>
+	<body background="media/left_bg.jpg" style="background-size:cover">
+		<br><br>
+		<table align ="center">
+		<form action="/get_knn/" method="post">
+			 {% csrf_token %}
+			 <tr><td>Enter Movie Name : </td><td><input type="text" name="param" required></td>
+			 <td></td><td><input type="submit" value="Get Movies"></td>
+			 <br><br>
+			 <br><br>
+			 {{data_external}}<br><br>
+			 <br><br>
+			 {% block content %}
+			 <table align="center">
+			 <tr></tr><tr></tr><tr><td>{{data2 | safe}}</td></tr>
+			 </table>
+			 {% endblock %}
+			 
+		</form>
+		</table>
+	</body>
+</html>
+{% endblock %}
